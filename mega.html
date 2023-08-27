@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/signup.css">
+    <script type="text/javascript" src="index.js"></script>
+    <title>My Page</title>
+</head>
+
+<body>
+    <header>
+        <h1><em>myshop</em></h1>
+        <nav class="main-nav">
+            <a href="home.html" id="selected">home</a>
+            <a href="shop.html">shop</a>
+            <a href="contact.html">contact</a>
+            <a href="profile.html">profile</a>
+            <a href="signup.html">signup</a>
+        </nav>
+    </header>
+
+
+    <form>
+        <label for="Full Name">Full Name:</label><br>
+        <input class="field" type="text" id="name" required><br>
+
+        <label for="email">Email:</label><br>
+        <input class="field" type="email" id="email" required><br> label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" required><br>-->
+
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender"><label>Male</label><br>
+        <input type="radio" id="female" name="gender"><label>Female</label><br><br>
+
+
+        <label for="gender">Gender:</label><br>
+        <select id="gender">
+            <option value="male">male</option>
+            <option value="female">female</option>
+        </select><br><br>
+
+
+        <label for="birthdate">Birthday:</label><br>
+        <input type="date" id="birthdate" required><br>
+
+
+
+        <label for="pass">Password:</label><br>
+        <input class="field" type="password" id="pass" required>
+        <br><br>
+
+
+        <label for="image">Profile image:</label><br>
+        <input type="file" id="image"><br>
+
+
+        <input type="checkbox" id="terms"><label for="image">I agree to <a>terms of use</a></label><br><br>
+
+        <button type="submit">signup</button>
+    </form>
+    <hr>
+
+    <section id="intro">
+        <div style="width: 50%;">
+            <h1>Best Clothing Quality</h1>
+            <p>Awesome video to be watched and enjoy yourself</p>
+            <a onclick="becomeMember()">Become a member</a>
+        </div>
+        <video controls width="500px">
+        <source src="C:\Users\titus thuo\Downloads\intro-video.mp4">
+
+        </video>
+    </section>
+
+
+
+
+
+    <nav id=nav-cat>
+        <a>Suit</a>
+        <a>Shirt</a>
+        <a>Dress</a>
+        <a>Shoes</a>
+    </nav>
+    <div class="product-nav">
+        <h3>Suits</h3>
+        <a href="">view all Suits</a>
+    </div>
+    <main id="products-intro">
+        <div class="product-card">
+            <img src="C:\Users\titus thuo\Downloads\suit-1.png" class="product-img" width="100">
+            <div style="padding: 10px 25px"></div>
+            <h3>Product title</h3>
+            <p>This is just a simple description of our product</p>
+            <a href="">View product</a>
+        </div>
+        <div class="product-card">
+            <img src="C:\Users\titus thuo\Downloads\shop small.png" width="100" alt="myshop logo">
+            <div style="padding: 10px 25px"></div>
+            <h3>Product title</h3>
+            <p>This is just a simple description of our product</p>
+            <a href="">View Product</a>
+        </div>
+        <div class="product-card">
+            <img src="C:\Users\titus thuo\Downloads\suit-1.png" class="product-img" width="100">
+            <div style="padding: 10px 25px"></div>
+            <h3>Product title</h3>
+            <p>This is just a simple description of our product</p>
+            <a href="">View Product</a>
+        </div>
+        <div class="product-card">
+            <img src="C:\Users\titus thuo\Downloads\suit-1.png" class="product-img" width="100">
+            <div style="padding: 10px 25px"></div>
+            <h3>Product title</h3>
+            <p>This is just a simple description of our product</p>
+            <a href="">View Product</a>
+        </div>
+    </main>
+    <div id="final-ele">
+        <aside>
+            <div class="title">
+                <p>This is a sample text</p>
+            </div>
+            <div class="text">
+                <p>This is a sample text</p>
+            </div>
+        </aside>
+    </div>
+    <footer>
+        <p>This is my footer</p>
+
+    </footer>
+</body>
+
+</html>
